@@ -15,7 +15,7 @@ def vanity(influencer):
     return vanity_score
 
 def vanity_sort(influencers):
-    return sorted(influencers, key=vanity) # this will loop through each influencer and sort their scores
+    return sorted(influencers, key=vanity)
 
 
 theprimeagen = Influencer(100, 1)
